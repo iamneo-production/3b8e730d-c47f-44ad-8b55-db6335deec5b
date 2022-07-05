@@ -28,3 +28,4 @@ jobs:
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=iamneo-production_3b8e730d-c47f-44ad-8b55-db6335deec5b
           -Dsonar.login=811c9a490983734401ba4e491eaefc8bfa7281de
+
