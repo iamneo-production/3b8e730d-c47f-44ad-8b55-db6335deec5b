@@ -1,4 +1,4 @@
-package com.examly.springapp.controllers;
+package com.examly.springapp;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,7 @@ public class HelloWorld {
     
     @GetMapping("/home")
     public String home(){
-        return "hello world 2";   
+        return "hello world 3";
     }
 }
 
