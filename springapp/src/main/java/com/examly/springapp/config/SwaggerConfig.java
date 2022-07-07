@@ -28,7 +28,7 @@ public class SwaggerConfig {
   }
 
   private ApiInfo apiInfo() {
-    return new ApiInfoBuilder().title("Baseball league projecy")
+    return new ApiInfoBuilder().title("Baseball League project - Monika Sethi")
         .description(" API reference for tedting")
         .termsOfServiceUrl("non")
         .contact(new Contact("Monika","","monika.sethi@chitkara.edu.in"))
